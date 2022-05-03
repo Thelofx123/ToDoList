@@ -43,10 +43,9 @@ function add(){
       }
 
       for (var e = 0; e < editC.length; e++) {
-       
         editC[e].onclick = function () {
           var p = prompt("Edit your entry");
-          entry.innerHTML = p;
+          li.innerHTML = p;
          }
         }
 }
